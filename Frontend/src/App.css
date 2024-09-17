@@ -1,0 +1,13 @@
+.pdf-viewer {
+    position: relative;
+}
+
+.page {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.page.selected {
+    background-color: rgba(0, 0, 255, 0.1);
+    /* Highlight selected page */
+}
